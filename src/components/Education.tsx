@@ -46,9 +46,6 @@ const Education = () => {
                     </div>
                 </motion.div>
 
-                <footer className="text-center text-industrial-600 pt-12 border-t border-industrial-900 mt-12">
-                    <p>© {new Date().getFullYear()} Gopinath Sivagnanam. Built with React.js, Tailwind & Framer Motion.</p>
-                </footer>
             </div>
         </section>
     );

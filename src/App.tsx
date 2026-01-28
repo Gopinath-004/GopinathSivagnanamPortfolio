@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Contact from './components/Contact';
 
+import Footer from './components/Footer';
+
 function App() {
   return (
     <div className="bg-industrial-950 text-industrial-50 min-h-screen selection:bg-neon-blue selection:text-black">
@@ -17,6 +19,7 @@ function App() {
       <SkillsCloud />
       <Education />
       <Contact />
+      <Footer />
       <ScrollToTop />
 
       {/* Global overlay grid for texture */}
