@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode (Inverted Scale) - RGB Channels */
+    --industrial-50: 2 6 23;
+    /* Was 950 */
+    --industrial-100: 15 23 42;
+    /* Was 900 */
+    --industrial-200: 30 41 59;
+    /* Was 800 */
+    --industrial-300: 51 65 85;
+    /* Was 700 */
+    --industrial-400: 71 85 105;
+    /* Was 600 */
+    --industrial-500: 100 116 139;
+    /* Same */
+    --industrial-600: 148 163 184;
+    /* Was 400 */
+    --industrial-700: 203 213 225;
+    /* Was 300 */
+    --industrial-800: 226 232 240;
+    /* Was 200 */
+    --industrial-900: 241 245 249;
+    /* Was 100 */
+    --industrial-950: 248 250 252;
+    /* Was 50 */
+  }
+
+  .dark {
+    /* Dark Mode (Original Scale) - RGB Channels */
+    --industrial-50: 248 250 252;
+    --industrial-100: 241 245 249;
+    --industrial-200: 226 232 240;
+    --industrial-300: 203 213 225;
+    --industrial-400: 148 163 184;
+    --industrial-500: 100 116 139;
+    --industrial-600: 71 85 105;
+    --industrial-700: 51 65 85;
+    --industrial-800: 30 41 59;
+    --industrial-900: 15 23 42;
+    --industrial-950: 2 6 23;
+  }
+
+  body {
+    @apply bg-industrial-950 text-industrial-50 font-sans antialiased overflow-x-hidden transition-colors duration-300;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-industrial-900/50 backdrop-blur-md border border-industrial-700/50 shadow-xl;
+  }
+
+  .glow-text {
+    filter: drop-shadow(0 0 8px rgba(0, 243, 255, 0.5));
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-industrial-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-industrial-700 rounded-full hover:bg-industrial-600 transition-colors;
+}

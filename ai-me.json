@@ -1,0 +1,39 @@
+{
+    "name": "Gopinath Sivagnanam",
+    "role": "Full Stack & IoT Developer",
+    "contact": {
+        "email": "gopisiva192@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/gopinath-sivagnanam-543b981b8/"
+    },
+    "experience_years": 3,
+    "summary": "Full Stack Developer with specialized experience in Industrial IoT integration. Proven track record at ProcessDrive India developing CRM (SYFOL) and CMMS (AIM2C) solutions. Expert in bridging software with hardware through TDD and on-site requirement analysis.",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vue.js",
+        "React.js",
+        ".NET",
+        "C#",
+        "MongoDB",
+        "SQL",
+        "N8n",
+        "IoT Integration",
+        "Hardware Debugging",
+        "MQTT",
+        "Python",
+        "Vuetify",
+        "Tailwind CSS",
+        "Database Design (MSSQL)",
+        "Third party API Integration"
+    ],
+    "education": {
+        "degree": "MCA",
+        "institution": "SRM Institute of Science and Technology, Chennai"
+    },
+    "highlights": [
+        "Integrated IoT hardware with web dashboards.",
+        "Developed comprehensive CRM systems.",
+        "On-site industry requirement gathering."
+    ]
+}
