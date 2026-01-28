@@ -35,7 +35,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-lg text-industrial-300 max-w-2xl mx-auto mb-12"
                 >
-                    Bridging the digital and physical worlds with <span className="text-white font-semibold">3 Years</span> of experience building robust web applications and integrating complex Industrial IoT solutions.
+                    Bridging the digital and physical worlds with <span className="text-industrial-50 font-semibold">3 Years</span> of experience building robust web applications and integrating complex Industrial IoT solutions.
                 </motion.p>
 
                 <motion.div

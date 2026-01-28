@@ -37,7 +37,10 @@
   },
   "homepage": "https://gopinath-004.github.io/GopinathSivagnanamPortfolio",
   "scripts": {
-    "build": "vite build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   }
 }

@@ -20,7 +20,7 @@ const Education = () => {
                         >
                             <div className="flex items-start justify-between mb-4">
                                 <div>
-                                    <h3 className="text-xl font-bold text-white">MCA</h3>
+                                    <h3 className="text-xl font-bold text-industrial-50">MCA</h3>
                                     <p className="text-sm text-industrial-400">Master of Computer Applications</p>
                                 </div>
                                 <GraduationCap className="text-neon-blue" size={24} />
@@ -35,7 +35,7 @@ const Education = () => {
                         >
                             <div className="flex items-start justify-between mb-4">
                                 <div>
-                                    <h3 className="text-xl font-bold text-white">BCA</h3>
+                                    <h3 className="text-xl font-bold text-industrial-50">BCA</h3>
                                     <p className="text-sm text-industrial-400">Bachelor of Computer Applications</p>
                                 </div>
                                 <GraduationCap className="text-neon-green" size={24} />
